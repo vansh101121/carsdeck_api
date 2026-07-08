@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 // Enable CORS for frontend development
 app.use(
   cors({
-    origin: ["https://cardeckapi.vercel.app"],
+    origin: ["https://carsdeck.netlify.app"],
     credentials: true,
   }),
 );
